@@ -3,7 +3,7 @@
 
 Link đề bài: https://www.figma.com/file/OqoskP3WsOjZYsIaXsqdm0/ReviewNha?node-id=1270%3A8494
 
-Download code và run code tại đường dẫn https://github.com/namnv2302/frontend-practice hoặc truy cập website 
+Download code và run code tại đường dẫn https://github.com/namnv2302/frontend-practice hoặc truy cập website https://namnv2302.github.io/frontend-practice/
 ## Được viết bằng: 
 - Html
 - Css
