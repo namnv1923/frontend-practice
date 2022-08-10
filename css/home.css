@@ -139,6 +139,7 @@
 }
 
 .tab_button-item {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,6 +153,7 @@
     height: 40px;
     cursor: pointer;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .tab_button-item:hover {

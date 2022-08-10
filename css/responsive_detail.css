@@ -109,9 +109,7 @@
         height: 300px;
     }
     .container_show .right {
-        height: unset;
-        flex-direction: row;
-        margin-top: 14px;
+        display: none;
     }
     .container_show .right img:first-child, 
     .container_show .right img:last-child {
