@@ -1,4 +1,4 @@
-#Bài 1: Cắt giao diện PSD Blog Review Nhà
+# Bài 1: Cắt giao diện PSD Blog Review Nhà
 Đề bài yêu cầu cắt lại giao diện blog của trang Review nhà với figma Thực hiện bởi: Nguyễn Văn Nam
 
 Link đề bài: https://www.figma.com/file/OqoskP3WsOjZYsIaXsqdm0/ReviewNha?node-id=1270%3A8494
