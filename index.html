@@ -37,6 +37,10 @@
                 <img class="header_logo-star" src="./images/svg/star.svg" alt="">        
             </div>
             <div class="header_more">
+                <div class="header_notify">
+                    <img class="header_notify-single" src="./images/svg/notify.svg" alt="">
+                    <img class="header_notify-dots" src="./images/dots.png" alt="">
+                </div>
                 <div class="header_heart">
                     <img class="header_heart-single" src="./images/svg/heart.svg" alt="">
                     <img class="header_heart-dots" src="./images/dots.png" alt="">
@@ -73,6 +77,11 @@
                 <p class="slider_title hide-on-mobile">Reviewnhà</p>
                 <p class="slider_sub-title hide-on-mobile">Finding your best home</p>
             </div>
+            <div class="slider_control">
+                <span class="item active"></span>
+                <span class="item"></span>
+                <span class="item"></span>
+            </div>
         </div>
         <div class="container">
             <div class="tab_button">
@@ -88,19 +97,29 @@
                     Tin tức
                 </h3>
                 <div class="news_content-body">
-                        <a href="detail.html" class="news_content-link">
-                            <img src="./images/nhaCoOngKhoi.jpg" alt="" class="news_content-img">
-                            <p class="news_content-title">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
-                            <div class="news_content-info">
-                                <p class="news_content-type">Xã hội</p>
-                                <p class="news_content-author">Nguyễn Văn Nam</p>
-                                <p class="news_content-time">24/02/2020</p>
-                            </div>
-                            <p class="news_content-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...</p>
-                        </a>
+                        <div class="news_content-left">
+                            <a href="detail.html" class="news_content-link">
+                                <div class="news_content-img">
+                                    <img src="./images/nhaCoOngKhoi.jpg" alt="">
+                                    <img src="./images/svg/heart-white.svg" alt="">
+                                </div>
+                                
+                                <p class="news_content-title">Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work</p>
+                                <div class="news_content-info">
+                                    <p class="news_content-type">Xã hội</p>
+                                    <p class="news_content-author">Nguyễn Văn Nam</p>
+                                    <p class="news_content-time">24/02/2020</p>
+                                </div>
+                                <p class="news_content-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...</p>
+                            </a>
+                        </div>
                         <div class="news_content-right">
                             <a href="detail.html" class="news_content-link">
-                                <img src="./images/vongXoay.jpg" alt="" class="news_content-right-img">
+                                <div class="news_content-right-img">
+                                    <img src="./images/vongXoay.jpg" alt="">
+                                    <img src="./images/svg/heart-white.svg" alt="">
+                                </div>
+                                
                                 <p class="news_content-title">Making a Housing Wage: Where  Restaurant Workers Can They Work</p>
                                 <div class="news_content-info">
                                     <p class="news_content-type">Xã hội</p>
@@ -109,7 +128,11 @@
                                 </div>
                             </a>
                             <a href="detail.html" class="news_content-link">
-                                <img src="./images/chambi.jpg" alt="" class="news_content-right-img">
+                                <div class="news_content-right-img">
+                                    <img src="./images/chambi.jpg" alt="">
+                                    <img src="./images/svg/heart-white.svg" alt="">
+                                </div>
+                                
                                 <p class="news_content-title">Making a Housing Wage: Where  Restaurant Workers Can They Work</p>
                                 <div class="news_content-info">
                                     <p class="news_content-type">Xã hội</p>
@@ -245,30 +268,107 @@
                     </div>
                 </div>
             </div>
-            <div class="list grid wide">
+            <div class="list">
                 <h3 class="list_heading">Danh sách tin</h3>
-                <div class="row">
-                    <div class="list_item">
-                        <div class="list_img">
-                            <img src="./images/vutru.jpg" alt="">
+                    <div class="list_item-sub">
+                        <p class="list_content-title">
+                            Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers
+                        </p>
+                        <div class="list_content-info">
+                            <p class="list_content-type">Xã hội</p>
+                            <p class="list_content-author">Nguyen Van Nam</p>
+                            <p class="list_content-days">24/02/2020</p>
                         </div>
                         <div class="list_content">
-                            <p class="list_content-title">
-                                Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
-                            </p>
-                            <div class="list_content-info">
-                                <p class="list_content-type">Xã hội</p>
-                                <p class="list_content-author">Nguyen Van Nam</p>
-                                <p class="list_content-days">24/02/2020</p>
+                            <div class="list_img">
+                                <img src="./images/vutru.jpg" alt="">
+                                <img src="./images/svg/heart-white.svg" alt="">
                             </div>
                             <p class="list_content-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus...
                             </p>
                         </div>
                     </div>
+                <div class="list_item-sub">
+                    <p class="list_content-title">
+                        Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers
+                    </p>
+                    <div class="list_content-info">
+                        <p class="list_content-type">Xã hội</p>
+                        <p class="list_content-author">Nguyen Van Nam</p>
+                        <p class="list_content-days">24/02/2020</p>
+                    </div>
+                    <div class="list_content">
+                        <div class="list_img">
+                            <img src="./images/sotam.jpg" alt="">
+                            <img src="./images/svg/heart-white.svg" alt="">
+                        </div>
+                        <p class="list_content-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus...
+                        </p>
+                    </div>
+                </div>
+                <div class="list_item-sub">
+                    <p class="list_content-title">
+                        Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers
+                    </p>
+                    <div class="list_content-info">
+                        <p class="list_content-type">Xã hội</p>
+                        <p class="list_content-author">Nguyen Van Nam</p>
+                        <p class="list_content-days">24/02/2020</p>
+                    </div>
+                    <div class="list_content">
+                        <div class="list_img">
+                            <img src="./images/vocuc.jpg" alt="">
+                            <img src="./images/svg/heart-white.svg" alt="">
+                        </div>
+                        <p class="list_content-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus...
+                        </p>
+                    </div>
+                </div>
+                <div class="list_item-sub">
+                    <p class="list_content-title">
+                        Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers
+                    </p>
+                    <div class="list_content-info">
+                        <p class="list_content-type">Xã hội</p>
+                        <p class="list_content-author">Nguyen Van Nam</p>
+                        <p class="list_content-days">24/02/2020</p>
+                    </div>
+                    <div class="list_content">
+                        <div class="list_img">
+                            <img src="./images/bacthang.jpg" alt="">
+                            <img src="./images/svg/heart-white.svg" alt="">
+                        </div>
+                        <p class="list_content-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus...
+                        </p>
+                    </div>
+                </div>
+                <div class="list_item">
+                    <div class="list_img">
+                        <img src="./images/vutru.jpg" alt="">
+                        <img src="./images/svg/heart-white.svg" alt="">
+                    </div>
+                    <div class="list_content">
+                        <p class="list_content-title">
+                            Making a Housing Wage: Where Teachers, First Responders and Restaurant Workers Can Live Where They Work
+                        </p>
+                        <div class="list_content-info">
+                            <p class="list_content-type">Xã hội</p>
+                            <p class="list_content-author">Nguyen Van Nam</p>
+                            <p class="list_content-days">24/02/2020</p>
+                        </div>
+                        <p class="list_content-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit diam at feugiat purus, interdum porta sed. Ac ut hendrerit enim et scelerisque nullam lorem. Libero mi velit id vitae...
+                        </p>
+                    </div>
+                </div>
                     <div class="list_item">
                         <div class="list_img">
                             <img src="./images/sotam.jpg" alt="">
+                            <img src="./images/svg/heart-white.svg" alt="">
                         </div>
                         <div class="list_content">
                             <p class="list_content-title">
@@ -287,6 +387,7 @@
                     <div class="list_item">
                         <div class="list_img">
                             <img src="./images/vocuc.jpg" alt="">
+                            <img src="./images/svg/heart-white.svg" alt="">
                         </div>
                         <div class="list_content">
                             <p class="list_content-title">
@@ -305,6 +406,7 @@
                     <div class="list_item">
                         <div class="list_img">
                             <img src="./images/bacthang.jpg" alt="">
+                            <img src="./images/svg/heart-white.svg" alt="">
                         </div>
                         <div class="list_content">
                             <p class="list_content-title">
@@ -320,7 +422,6 @@
                             </p>
                         </div>
                     </div>
-                </div>
             </div>
             <div class="more_button">Xem thêm</div>
         </div>
